@@ -1,0 +1,32 @@
+@use "sass:math";
+
+// inner
+$inner: 1200px;
+
+// 余白
+$padding-pc: 25px; // PC用余白設定
+$padding-sp: 20px; // スマホ用余白設定
+
+// フォント
+$font-family-base: 'Noto Sans JP', sans-serif; // ベースフォント設定
+
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bald: 700;
+$extra-bold: 800;
+
+// ベースフォントサイズ
+$base-font-size: 16px;
+
+// Color
+$color-black:#333;
+$color-red:#e00;
+
+// ブレイクポイントの設定
+$breakpoints: (
+  "sm": "screen and (max-width: 399px)",
+  "md": "screen and (max-width: 767px)",
+  "lg": "screen and (max-width: 999px)",
+  "xl": "screen and (max-width: 1199px)",
+);
